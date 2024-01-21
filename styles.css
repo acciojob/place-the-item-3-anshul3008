@@ -1,2 +1,11 @@
+.holder{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
 
-/* Your CSS Code here. */
+.holder>div{
+	background-color: lightblue;
+	padding: 20px;
+	font-size: 30px;
+}
